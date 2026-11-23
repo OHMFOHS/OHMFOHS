@@ -1,5 +1,13 @@
 # Full-stack developer
 
+## Tallymark
+
+If an agent asks a tool to create a receipt, times out, and tries again, how many receipts end up in the database?
+
+I built Tallymark to test how Model Context Protocol (MCP) servers handle retries and cancellations. It checks independent backend records alongside the tool replies, so CI can flag a duplicate write even when both calls report success. If a job is still running and the evidence is incomplete, Tallymark reports an inconclusive result.
+
+## Inference and robotics
+
 I like questions I can test on one machine. How much work can a GPU skip when prompts repeat? Can a robot arm tell when it has missed a grasp?
 
 <p>
